@@ -1,0 +1,30 @@
+.header-wrap {
+    margin-top: 55px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-sociable {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu__link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 17px;
+    color: #383838;
+}

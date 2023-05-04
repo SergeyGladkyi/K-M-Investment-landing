@@ -1,0 +1,11 @@
+@import url('./fonts.css');
+
+@import url('./header.css');
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+/* header */
