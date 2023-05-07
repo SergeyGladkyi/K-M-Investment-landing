@@ -1,0 +1,53 @@
+.about {
+    background: #4B4B4B;
+    color: #fff;
+}
+
+.about-title {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.about-title__text-position {
+    position: absolute;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 150px;
+    opacity: 0.3;
+    right: -83px;
+    bottom: 77px;
+    z-index: 99;
+}
+
+.about-title__text {
+    margin-top: 65px;
+    padding-bottom: 85px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 90px;
+}
+
+.about-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-photo-content-item {
+    max-width: 480px;
+    min-height: 100px;
+    margin-bottom: 85px;
+    border-left: 7px solid #DBB11B;
+}
+
+.about-photo-content-item__text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.about-decor {
+    color: #DBB11B;
+}
