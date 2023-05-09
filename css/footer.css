@@ -1,0 +1,39 @@
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+
+.footer-wrap-group__title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    color: #383838;
+}
+
+.footer-wrap-contact__link-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    color: #383838;
+}
+
+.footer-wrap-email__link-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    color: #383838;
+}
+
+.footer-wrap-addres-list__item {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    color: #383838;
+}
+
+.footer-social {
+    display: flex;
+    gap: 25px;
+}
