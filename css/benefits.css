@@ -32,6 +32,13 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
     padding-bottom: 290px;
+    position: relative;
+}
+
+.benefits-background {
+    position: absolute;
+    bottom: 0;
+    left: -172px;
 }
 
 .benefits-wrap-item {
