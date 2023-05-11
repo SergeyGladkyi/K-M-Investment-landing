@@ -41,6 +41,10 @@
     left: -172px;
 }
 
+.benefits-background-adptive {
+    display: none;
+}
+
 .benefits-wrap-item {
     display: flex;
     align-items: center;
@@ -61,4 +65,53 @@
 
 .benefits-wrap-item__text:nth-child(4) {
     background: url('/img/benefits-amazon.png') no-repeat right;
+}
+
+@media (max-width: 1230px) {
+    .benefits-title {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .benefits-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 660px) {
+    .benefits-title__text {
+        font-size: 45px;
+    }
+
+    .benefits__text-position {
+        font-size: 60px;
+    }
+
+    .benefits-wrap-item__text {
+        font-size: 14px;
+    }
+
+    .benefits-wrap-item__img {
+        width: 60px;
+    }
+}
+
+@media (max-width: 560px) {
+    .benefits-background {
+        display: none;
+    }
+
+    .benefits-background-adptive {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .benefits-wrap {
+        grid-template-columns: 1fr;
+    }
 }

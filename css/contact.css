@@ -155,3 +155,16 @@
     justify-content: center;
     gap: 50px;
 }
+
+@media (max-width: 1230px) {
+    .contact-title {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-wrap {
+        z-index: 99px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
