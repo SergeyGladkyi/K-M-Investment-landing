@@ -20,7 +20,6 @@
 .contact-title__text-position {
     position: absolute;
     top: 0;
-    right: -170px;
     font-family: 'Roboto';
     font-weight: 800;
     font-size: 150px;
@@ -34,10 +33,18 @@
     position: relative;
 }
 
+.contact-wrap-form {
+    position: relative;
+}
+
 .contact-background {
     position: absolute;
     top: -200px;
     left: -172px;
+}
+
+.contact-background-adaptive {
+    display: none;
 }
 
 .contact-wrap-form-name {
@@ -166,5 +173,126 @@
         z-index: 99px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact-wrap {
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-background {
+        display: none;
+    }
+
+    .contact-background-adaptive {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: -200px;
+    }
+}
+
+@media (max-width: 660px) {
+    .contact-title__text-position {
+        font-size: 90px;
+    }
+
+    .contact-title {
+        justify-content: start;
+    }
+
+    .contact-title__text {
+        max-width: 205px;
+        font-size: 45px;
+    }
+
+    .contact-title__text-position {
+        max-width: 420px;
+        left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-wrap-form-name {
+        width: 100%;
+    }
+
+    .contact-wrap-form-name__title {
+        font-size: 14px;
+    }
+
+    .contact-wrap-form-name__inpt {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .contact-wrap-form-name__inpt::placeholder {
+        font-size: 14px;
+    }
+
+    .contact-wrap-form-email__title {
+        font-size: 14px;
+    }
+
+    .contact-wrap-form-email__inpt {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .contact-wrap-form-email__inpt::placeholder {
+        font-size: 14px;
+    }
+
+    .contact-wrap-form-questoin__title {
+        font-size: 14px;
+    }
+
+    .contact-wrap-form-questoin__inpt {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .contact-wrap-form-questoin__inpt::placeholder {
+        font-size: 14px;
+    }
+
+    .contact-wrap-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-title__text-position {
+        font-size: 50px;
+        top: 22px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-title__text-position {
+        position: absolute;
+        font-size: 50px;
+    }
+
+    .contact-wrap-form__btn {
+        width: 100%;
+    }
+
+    .contact-wrap-form__btn-link {
+        font-size: 14px;
+    }
+
+    .contact-wrap-form-social {
+        width: 100%;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .contact-wrap-form-social__link {
+        width: 100%;
     }
 }

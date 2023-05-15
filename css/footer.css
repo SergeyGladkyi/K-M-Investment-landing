@@ -58,6 +58,7 @@
 
 @media (max-width: 1050px) {
     .footer-wrap {
+        gap: 20px;
         text-align: center;
         flex-direction: column;
     }

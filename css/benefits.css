@@ -79,6 +79,19 @@
     }
 }
 
+@media (max-width: 800px) {
+    .benefits-background {
+        display: none;
+    }
+
+    .benefits-background-adptive {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
 @media (max-width: 660px) {
     .benefits-title__text {
         font-size: 45px;
@@ -94,19 +107,6 @@
 
     .benefits-wrap-item__img {
         width: 60px;
-    }
-}
-
-@media (max-width: 560px) {
-    .benefits-background {
-        display: none;
-    }
-
-    .benefits-background-adptive {
-        display: block;
-        position: absolute;
-        bottom: 0;
-        right: 0;
     }
 }
 
